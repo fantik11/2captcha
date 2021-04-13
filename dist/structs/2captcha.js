@@ -46,8 +46,8 @@ class Solver {
     get pollingFrequency() { return this._pollingFrequency; }
     /** Set the API key for this instance */
     set apikey(update) { this._apikey = update; }
-    get in() { return "https://2captcha.com/in.php"; }
-    get res() { return "https://2captcha.com/res.php"; }
+    get in() { return "http://api.captcha.guru/in.php"; }
+    get res() { return "http://api.captcha.guru/res.php"; }
     get defaultPayload() { return { key: this.apikey, json: 1 }; }
     /**
      * Returns the remaining account balance.
