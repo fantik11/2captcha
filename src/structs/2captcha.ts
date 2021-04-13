@@ -76,8 +76,8 @@ export class Solver {
     /** Set the API key for this instance */
     public set apikey(update: string) { this._apikey = update }
 
-    private get in() { return "https://2captcha.com/in.php" }
-    private get res() { return "https://2captcha.com/res.php"}
+    private get in() { return "http://api.captcha.guru/in.php" }
+    private get res() { return "http://api.captcha.guru/res.php"}
     private get defaultPayload() { return { key: this.apikey, json: 1 } }
 
     /**
