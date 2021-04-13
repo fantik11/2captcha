@@ -216,7 +216,7 @@ export class Solver {
             sitekey: sitekey,
             pageurl: pageurl,
             action: "get",
-            method: "hcaptcha",
+            method: "hcaptcha2",
             ...this.defaultPayload
         }
 
